@@ -1,0 +1,4 @@
+service vendor.miperf /vendor/bin/hw/vendor.xiaomi.hardware.miperf@1.0-service
+    class hal
+    user root
+    group system root
