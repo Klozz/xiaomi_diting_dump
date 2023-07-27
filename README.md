@@ -1,0 +1,14 @@
+# missi-user 12 SKQ1.220303.001 V13.0.2.0.SLFJPXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: diting
+- flavor: missi-user
+- release: 12
+- id: SKQ1.220303.001
+- incremental: V13.0.2.0.SLFJPXM
+- tags: release-keys
+- fingerprint: Xiaomi/diting/diting:12/SKQ1.220303.001/V13.0.2.0.SLFJPXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi-user-12-SKQ1.220303.001-V13.0.2.0.SLFJPXM-release-keys
+- repo: xiaomi_diting_dump

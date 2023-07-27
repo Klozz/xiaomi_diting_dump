@@ -1,0 +1,17 @@
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/Settings/Settings.apk
+system/system/data-app/MIMediaEditorGlobal/MIMediaEditorGlobal.apk
+system/system/priv-app/MIUIGalleryGlobal/MIUIGalleryGlobal.apk
+system/system/priv-app/MIBrowserGlobal/MIBrowserGlobal.apk
+system/system/priv-app/MiuiCamera/MiuiCamera.apk
+system/system/priv-app/MiExtraPhotoGlobalAutoCrop/MiExtraPhotoGlobalAutoCrop.apk
+system/system/app/MIUIVideoPlayer/MIUIVideoPlayer.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/Messages/Messages.apk
+product/app/TrichromeLibrary/TrichromeLibrary.apk
+bootRE/boot.elf
+recovery.img
+vendor/lib64/libQnnGpu.so
+modem.img
+boot.img
