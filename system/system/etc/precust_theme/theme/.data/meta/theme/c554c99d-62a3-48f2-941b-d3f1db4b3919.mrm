@@ -1,0 +1,93 @@
+{
+  "localId": "c554c99d-62a3-48f2-941b-d3f1db4b3919",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "12581d72503b370d49f14217599d40aa8a15ba4a",
+  "platform": 10,
+  "size": 8726752,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "Daniel Arsham"
+  },
+  "designers": {
+    "fallback": "Daniel Arsham"
+  },
+  "titles": {
+    "fallback": "Daniel Arsham Edition"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "en_US": [
+      "en_US_lockscreen_0.jpg",
+      "en_US_launcher_0.jpg",
+      "en_US_launcher_1.jpg",
+      "en_US_statusbar_0.jpg",
+      "en_US_statusbar_1.jpg",
+      "en_US_contact_0.jpg",
+      "en_US_mms_0.jpg",
+      "en_US_mms_1.jpg",
+      "preview_icons_small_mask_0.png"
+    ]
+  },
+  "builtInPreviews": {
+    "en_US": [
+      "en_US_lockscreen_0.jpg",
+      "en_US_launcher_0.jpg",
+      "en_US_launcher_1.jpg",
+      "en_US_statusbar_0.jpg",
+      "en_US_statusbar_1.jpg",
+      "en_US_contact_0.jpg",
+      "en_US_mms_0.jpg",
+      "en_US_mms_1.jpg",
+      "preview_icons_small_mask_0.png"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [
+    {
+      "localId": "4852fd0f-e102-488d-ba7f-1abe05995ac9",
+      "resourceCode": "wallpaper",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "0ee7ae44-b89f-4a2b-851a-cc2da477e26e",
+      "resourceCode": "lockstyle",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "1fdb5542-1d12-414f-9ca0-bc5f25577db8",
+      "resourceCode": "launcher",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "e3ef3c7c-58fb-45d4-8909-620476922ef8",
+      "resourceCode": "lockscreen",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "80ac59fb-7684-48bf-863a-dd2aab5a5f11",
+      "resourceCode": "icons",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "miuiAdapterVersion": "2.0"
+}

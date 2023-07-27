@@ -1,0 +1,21 @@
+on early-init
+    mkdir /opconfig 0775 system system
+
+on init
+    mkdir /opconfig 0775 system system
+
+on fs
+    wait /dev/block/bootdevice/by-name/opconfig
+    mount ext4 /dev/block/bootdevice/by-name/opconfig  /opconfig ro noatime nosuid nodev barrier=1
+    chown system system /opconfig
+    chmod 0775 /opconfig
+
+on post-fs
+    # We chown/chmod /opconfig again so because mount is run as root + defaults
+    chown system system /opconfig
+    chmod 0775 /opconfig
+    # We restorecon /opconfig in case the opcust partition has been reset.
+    restorecon_recursive /opconfig
+
+    # create the lost+found directories, so as to enforce our permissions
+    mkdir /opconfig/lost+found 0770 root root
