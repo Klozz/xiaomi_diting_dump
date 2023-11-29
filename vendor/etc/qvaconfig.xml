@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!---/***********************************************************
+  Copyright (c) 2018-2022 Qualcomm Technologies, Inc.
+  All Rights Reserved.
+  Confidential and Proprietary - Qualcomm Technologies, Inc.
+**************************************************************-->
+
+<configs>
+    <Integer name="HistBufferDuration" value="2000" />
+
+    <SoundModel name="a977b1c7_es-US.uim" locale="en-US">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="18"/>
+        <Item name="DefaultUserConfidenceThreshold" value="1"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+    <SoundModel name="a977b1c7_de-DE.uim" locale="de-DE">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="28"/>
+        <Item name="DefaultUserConfidenceThreshold" value="10"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+    <SoundModel name="a977b1c7_en-GB.uim" locale="en-GB">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="41"/>
+        <Item name="DefaultUserConfidenceThreshold" value="1"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+    <SoundModel name="a977b1c7_es-ES.uim" locale="es-ES">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="32"/>
+        <Item name="DefaultUserConfidenceThreshold" value="10"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+    <SoundModel name="a977b1c7_it-IT.uim" locale="it-IT">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="50"/>
+        <Item name="DefaultUserConfidenceThreshold" value="10"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+    <SoundModel name="a977b1c7_fr-FR.uim" locale="fr-FR">
+        <Item name="KeyphraseConfidenceLevel" value="10" />
+        <Item name="DefaultTrainingThreshold" value="10" />
+        <Item name="DefaultUvrThreshold" value="42"/>
+        <Item name="DefaultUserConfidenceThreshold" value="10"/>
+        <Item name="SvaUvWeight" value="0.1"/>
+    </SoundModel>
+
+	<String name="UVREnrollAudioSource" value="VOICE_RECOGNITION"/>
+
+    <WhiteListApp name="com.amazon.dee.app" value="2f19adeb284eb36f7f07786152b9a1d14b21653203ad0b04ebbf9c73ab6d7625"/>
+
+</configs>
