@@ -1,0 +1,5 @@
+<config>
+  <system-app-default-state package="com.orange.update" enabled="false" />
+  <system-app-default-state package="com.sfr.android.sfrjeux" enabled="false" />
+  <system-app-default-state package="com.altice.android.myapps" enabled="false" />
+</config>
