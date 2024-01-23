@@ -1,0 +1,14 @@
+# missi_phone_eea-user 14 UKQ1.230917.001 V816.0.1.0.ULFEUXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: diting
+- flavor: missi_phone_eea-user
+- release: 14
+- id: UKQ1.230917.001
+- incremental: V816.0.1.0.ULFEUXM
+- tags: release-keys
+- fingerprint: Xiaomi/diting/diting:12/SKQ1.230401.001/V816.0.1.0.ULFEUXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_eea-user-14-UKQ1.230917.001-V816.0.1.0.ULFEUXM-release-keys
+- repo: xiaomi_diting_dump
