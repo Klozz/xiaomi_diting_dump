@@ -1,0 +1,53 @@
+{
+  "localId": "66837aa6-2a77-4007-ab7a-dbc68da54792",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "d13babce40c61f1a4e2522a18e88ccab5a780de4",
+  "platform": 10,
+  "size": 18512405,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "Redmi"
+  },
+  "designers": {
+    "fallback": "Redmi"
+  },
+  "titles": {
+    "fallback": "Mercedes-AMG F1 Team Edition"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_animation_0.jpg",
+      "preview_animation_1.jpg",
+      "preview_animation_2.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_animation_0.jpg",
+      "preview_animation_1.jpg",
+      "preview_animation_2.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "8aa90924-6d93-4f8e-b15d-a45db2e6a902",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "miuiAdapterVersion": "2.0"
+}
