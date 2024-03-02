@@ -1,0 +1,14 @@
+# missi_phone_global-user 13 TKQ1.220829.002 V14.0.4.0.TLFJPXM release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: diting
+- flavor: missi_phone_global-user
+- release: 13
+- id: TKQ1.220829.002
+- incremental: V14.0.4.0.TLFJPXM
+- tags: release-keys
+- fingerprint: Xiaomi/diting/diting:13/SKQ1.220303.001/V14.0.4.0.TLFJPXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_global-user-13-TKQ1.220829.002-V14.0.4.0.TLFJPXM-release-keys
+- repo: xiaomi_diting_dump
