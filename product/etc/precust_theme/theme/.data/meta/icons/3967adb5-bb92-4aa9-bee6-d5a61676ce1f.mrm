@@ -1,0 +1,50 @@
+{
+  "localId": "3967adb5-bb92-4aa9-bee6-d5a61676ce1f",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "4fd6549abbf14bd94d7f355959b4c41e5f2801f1",
+  "platform": 10,
+  "size": 1035265,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "Daniel Arsham"
+  },
+  "designers": {
+    "fallback": "Daniel Arsham"
+  },
+  "titles": {
+    "fallback": "Daniel Arsham Edition"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "fallback": [
+       "preview_icons_small_mask_0.png"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+       "preview_icons_0.png",
+       "preview_icons_1.png"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "fcf110f5-c124-486e-9bae-c519ea4d0074",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "miuiAdapterVersion": "2.0"
+}
