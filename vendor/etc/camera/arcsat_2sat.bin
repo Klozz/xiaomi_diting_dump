@@ -1,0 +1,11 @@
+Device = {L12}
+Version = {1.0.0.0}
+CbSize = {0}
+NumberOfCameras = {2}
+CalibrationType = {0}
+CameraFov = {120.0, 83.6}
+CameraRatio = {0.6, 1.0}
+MappedFovRatio = {0.0, 0.0, 0.0}
+ActiveRange = {[0, 0, 3264, 2448], [0, 0, 12000, 9000]}
+SensorOutSize = {[0, 0, 3264, 2448], [0, 0, 4000, 3000]}
+RotationCorrection = {1, 0}
