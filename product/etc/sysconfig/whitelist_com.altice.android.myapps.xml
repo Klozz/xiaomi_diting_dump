@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The OMA DM service must be whitelisted so they are always able to run. -->
+<config>
+  <allow-in-power-save package="com.altice.android.myapps"/>
+  <app-link package="com.altice.android.myapps"/>
+  <allow-in-data-usage-save package="com.altice.android.myapps"/>
+
+  <allow-in-power-save package="com.sfr.android.sfrjeux"/>
+  <app-link package="com.sfr.android.sfrjeux"/>
+  <allow-in-data-usage-save package="com.sfr.android.sfrjeux"/>
+
+  <allow-in-power-save package="com.ironsource.appcloud.oobe.hutchison"/>
+
+  <app-link package="com.orange.update" />
+  <allow-in-power-save package="com.orange.update" />
+  <allow-in-power-save package="com.orange.aura.oobe" />
+  
+  <allow-in-power-save package="com.aura.oobe.vodafone"/>
+  
+  <allow-in-power-save package="com.dti.bouyguestelecom"/>
+  <allow-in-data-usage-save package="com.dti.bouyguestelecom"/>
+  <app-link package="com.dti.bouyguestelecom"/>
+</config>

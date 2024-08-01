@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+    <exception package="com.ironsource.appcloud.oobe.hutchison">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+    <exception package="com.aura.oobe.vodafone">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+    
+    <exception package="com.orange.update">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+    <exception package="com.orange.aura.oobe">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+    
+    <exception package="com.dti.bouyguestelecom">
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+    </exception>
+    
+    <exception package="com.sfr.android.sfrjeux">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+    <exception package="com.altice.android.myapps">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+    </exception>
+</exceptions>
