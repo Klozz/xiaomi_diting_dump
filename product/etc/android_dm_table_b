@@ -1,0 +1,12 @@
+create mireuse_b
+linear 0       778240  /dev/block/by-name/modem_b 0
+linear 778240  393216  /dev/block/by-name/boot_b 0
+linear 1171456 204800  /dev/block/by-name/recovery_b 0
+linear 1376256 196608  /dev/block/by-name/vendor_boot_b 0
+linear 1572864 131072  /dev/block/by-name/dsp_b 0
+linear 1703936 98304   /dev/block/by-name/imagefv_b 0
+linear 1802240 65536   /dev/block/by-name/mdtp_b 0
+linear 1867776 49152   /dev/block/by-name/dtbo_b 0
+linear 1916928 8192    /dev/block/by-name/bluetooth_b 0
+linear 1925120 8192    /dev/block/by-name/mdtpsecapp_b 0
+linear 1933312 4096    /dev/block/by-name/bk41_b 0

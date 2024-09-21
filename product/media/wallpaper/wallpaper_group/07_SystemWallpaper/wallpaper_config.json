@@ -1,0 +1,14 @@
+{
+    "title": "更多系统壁纸",
+    "titleResId": "wallpaper_group_more_system_wallpaper_title",
+    "cardType": 1,
+    "count": 1,
+    "slideCount": 1,
+    "conflictWithSuperWallpaper":true,
+    "randomOrder": false,
+    "wallpapers": [{
+        "thumbPath": "./SystemWallpaper01.jpg",
+        "originPath": "./SystemWallpaper01.jpg",
+        "type": "wallpaper"
+    }]
+}
