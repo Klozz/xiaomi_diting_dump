@@ -1,0 +1,315 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Dragon", "Surf", "QRD"],
+    "soc_id": ["291", "246", "305", "341", "356", "415", "457", "530"]
+  },
+  "tcs3408_platform":{
+    "owner": "sns_tcs3408",
+    ".config":{
+      "owner": "sns_tcs3408",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "41"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "154"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".als":{
+      "owner": "sns_tcs3408",
+      ".fac_cal":{
+        "owner": "sns_tcs3408",
+        "scale":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "bias":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+      },
+      ".factory_config":{
+        "owner": "sns_tcs3408",
+        "parm1":{ "type": "flt", "ver": "1",
+          "data": "8.0"
+        },
+        "parm2":{ "type": "flt", "ver": "1",
+          "data": "8.0"
+        },
+        "parm3":{ "type": "flt", "ver": "0",
+          "data": "64.0"
+        },
+        "parm4":{ "type": "flt", "ver": "0",
+          "data": "64.0"
+        },
+        "parm5":{ "type": "flt", "ver": "0",
+          "data": "64.0"
+        },
+        "parm6":{ "type": "flt", "ver": "0",
+          "data": "64.0"
+        }
+      }
+    },
+    ".prox":{
+      "owner": "sns_tcs3408",
+      ".fac_cal":{
+        "owner": "sns_tcs3408",
+        "near_threshold":{ "type": "flt", "ver": "0",
+          "data": "60.0"
+        },
+        "far_threshold":{ "type": "flt", "ver": "0",
+          "data": "40.0"
+        }
+      }
+    },
+    ".rgb":{
+      "owner": "sns_tcs3408",
+      ".fac_cal":{
+        "owner": "sns_tcs3408",
+        "scale_l":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "scale_h":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        }
+      }
+    },
+    ".channel":{
+      "owner": "sns_tcs3408",
+      ".fac_cal":{
+        "owner": "sns_tcs3408",
+        "data_cch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_rch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_gch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_bch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_wch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        }
+      },
+      ".fac_cal_orignal":{
+        "owner": "sns_tcs3408",
+        "data_cch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_rch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_gch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_bch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        },
+        "data_wch":{ "type": "flt", "ver": "0",
+          "data": "1.0"
+        }
+      }
+    },
+    ".coefficient":{
+      "owner": "sns_tcs3408",
+      "0":{ "type": "flt", "ver": "5",
+        "data": "200"
+      },
+      "1":{ "type": "flt", "ver": "7",
+        "data": "0.000696"
+      },
+      "2":{ "type": "flt", "ver": "7",
+        "data": "0.003011"
+      },
+      "3":{ "type": "flt", "ver": "7",
+        "data": "0.015680"
+      },
+      "4":{ "type": "flt", "ver": "7",
+        "data": "-0.003259"
+      },
+      "5":{ "type": "flt", "ver": "7",
+        "data": "-0.002837"
+      },
+      "6":{ "type": "flt", "ver": "7",
+        "data": "0.000846"
+      },
+      "7":{ "type": "flt", "ver": "7",
+        "data": "0.002986"
+      },
+      "8":{ "type": "flt", "ver": "7",
+        "data": "0.005906"
+      },
+      "9":{ "type": "flt", "ver": "7",
+        "data": "0.004645"
+      },
+      "10":{ "type": "flt", "ver": "7",
+        "data": "-0.000641"
+      },
+      "11":{ "type": "flt", "ver": "6",
+        "data": "0.3"
+      },
+       "12":{ "type": "flt", "ver": "6",
+        "data": "0.3"
+      },
+      "13":{ "type": "flt", "ver": "5",
+        "data": "0.1"
+      },
+      "14":{ "type": "flt", "ver": "5",
+        "data": "1.0"
+      }
+    },
+  ".cct_coef_hir":{
+      "owner": "sns_tcs3408",
+      "0":{ "type": "flt", "ver": "5",
+        "data": "-0.101052"
+      },
+      "1":{ "type": "flt", "ver": "5",
+        "data": "0.183249"
+      },
+      "2":{ "type": "flt", "ver": "5",
+        "data": "1.019278"
+      },
+      "3":{ "type": "flt", "ver": "5",
+        "data": "0.003303"
+      },
+      "4":{ "type": "flt", "ver": "5",
+        "data": "-0.005776"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "1.000000"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "10":{ "type": "flt", "ver": "5",
+        "data": "0.500977"
+      },
+      "11":{ "type": "flt", "ver": "5",
+        "data": "-0.761017"
+      },
+      "12":{ "type": "flt", "ver": "5",
+        "data": "-0.426306"
+      },
+      "13":{ "type": "flt", "ver": "5",
+        "data": "1.113264"
+      },
+      "14":{ "type": "flt", "ver": "5",
+        "data": "0.030244"
+      }
+    },
+    ".cct_coef_lir":{
+      "owner": "sns_tcs3408",
+      "0":{ "type": "flt", "ver": "4",
+        "data": "-0.089975"
+      },
+      "1":{ "type": "flt", "ver": "4",
+        "data": "0.179467"
+      },
+      "2":{ "type": "flt", "ver": "4",
+        "data": "1.038584"
+      },
+      "3":{ "type": "flt", "ver": "4",
+        "data": "-0.153674"
+      },
+      "4":{ "type": "flt", "ver": "4",
+        "data": "0.034247"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "1.000000"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.000000"
+      },
+      "10":{ "type": "flt", "ver": "4",
+        "data": "0.170926"
+      },
+      "11":{ "type": "flt", "ver": "4",
+        "data": "-0.387439"
+      },
+      "12":{ "type": "flt", "ver": "4",
+        "data": "-0.248553"
+      },
+      "13":{ "type": "flt", "ver": "4",
+        "data": "1.183653"
+      },
+      "14":{ "type": "flt", "ver": "4",
+        "data": "0.202010"
+      }
+    },
+    ".flicker_para":{
+      "owner": "sns_tcs3408",
+      "fd_atime":{ "type": "flt", "ver": "1",
+        "data": "500.0"
+      },
+      "fd_init_gain":{ "type": "flt", "ver": "1",
+        "data": "128.0"
+      },
+      "reserve_0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "reserve_1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "reserve_2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    }
+  }
+}
