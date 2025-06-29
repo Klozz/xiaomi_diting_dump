@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--MIUI ADD: Performance_MemoryPolicyEnhance-->
+<contents>
+    <designated-package name="com.miui.home" />
+    <designated-package name="com.android.systemui" />
+</contents>
+<!--END Performance_MemoryPolicyEnhance-->
