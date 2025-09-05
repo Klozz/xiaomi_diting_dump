@@ -1,0 +1,69 @@
+####################################
+# from generate_common_build_props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Xiaomi
+ro.product.system_ext.device=diting
+ro.product.system_ext.manufacturer=Xiaomi
+ro.product.system_ext.model=diting
+ro.product.system_ext.name=xperience_diting
+ro.system_ext.build.date=Mon Jun 23 21:39:14 CST 2025
+ro.system_ext.build.date.utc=1750736354
+ro.system_ext.build.fingerprint=Xiaomi/diting/diting:12/SKQ1.230401.001/V816.0.8.0.ULFMIXM:user/release-keys
+ro.system_ext.build.id=AP4A.250605.005
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=1750736354
+ro.system_ext.build.version.release=15
+ro.system_ext.build.version.release_or_codename=15
+ro.system_ext.build.version.sdk=35
+####################################
+# from device/xiaomi/diting/configs/properties/system_ext.prop
+####################################
+# Audio
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3
+ro.qc.sdk.audio.ssr=false
+ro.qc.sdk.audio.fluencetype=none
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+persist.audio.fluence.voicecomm=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
+persist.audio.fluence.speaker=true
+# Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture.org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packagelist=org.lineageos.aperture,org.codeaurora.snapcam,com.android.camera,com.google.camera
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+# DPM
+persist.vendor.dpm.feature=11
+# GPS 
+persist.sys.gps.polaris=true
+persist.sys.gps.fence=true
+# RIL
+ro.telephony.sim_slots.count=1
+telephony.active_modems.max_count=2
+# Media
+media.settings.xml=/vendor/etc/media_profiles_cape.xml
+media.stagefright.thumbnail.prefer_hw_codecs=true
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+ro.charger.enable_suspend=1
+ro.face.sense_service=true
+sys.fflag.override.settings_volume_panel_in_systemui=true
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
+debug.sf.frame_rate_multiple_threshold=60
+ro.surface_flinger.enable_frame_rate_override=false
+persist.arm64.memtag.app.com.android.se=off
+persist.arm64.memtag.app.com.google.android.bluetooth=off
+persist.arm64.memtag.app.com.android.nfc=off
+persist.arm64.memtag.process.system_server=off
+ro.sensor.pickup=xiaomi.sensor.pickup
+ro.sensor.pickup.lower.value=2
+ro.sensor.proximity=true
+# end of file

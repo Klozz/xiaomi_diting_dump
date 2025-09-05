@@ -1,0 +1,14 @@
+vendor/lib64/libQnnGpu.so
+boot.img
+product/app/Maps/Maps.apk
+product/app/Gmail2/Gmail2.apk
+product/app/YouTube/YouTube.apk
+product/app/Photos/Photos.apk
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk
+product/priv-app/GmsCore/GmsCore.apk
+product/priv-app/Messages/Messages.apk
+product/priv-app/Velvet/Velvet.apk
+recovery.img
+system_ext/app/UdfpsResources/UdfpsResources.apk
+modem.img
+system/system/priv-app/MiuiCamera/MiuiCamera.apk

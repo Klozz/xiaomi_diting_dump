@@ -1,0 +1,14 @@
+# xperience_diting-user 15 AP4A.250605.005 eng.androi release-keys
+- manufacturer: xiaomi
+- platform: taro
+- codename: diting
+- flavor: xperience_diting-user
+- release: 15
+- id: AP4A.250605.005
+- incremental: 1750736354
+- tags: release-keys
+- fingerprint: Xiaomi/diting/diting:12/SKQ1.230401.001/V816.0.8.0.ULFMIXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: xperience_diting-user-15-AP4A.250605.005-eng.androi-release-keys
+- repo: xiaomi_diting_dump
