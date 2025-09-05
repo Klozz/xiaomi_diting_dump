@@ -1,0 +1,11 @@
+<!--
+    Input:
+        device/xiaomi/diting/touch/vendor.xperience.touch@1.0-service.diting.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>vendor.xperience.touch</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IHighTouchPollingRate/default</fqname>
+    </hal>
+</manifest>
