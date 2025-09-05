@@ -1,0 +1,271 @@
+####################################
+# from generate_common_build_props
+# These properties identify this partition image.
+####################################
+ro.product.system.brand=Xiaomi
+ro.product.system.device=diting
+ro.product.system.manufacturer=Xiaomi
+ro.product.system.model=diting
+ro.product.system.name=xperience_diting
+ro.system.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.system.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.system.product.cpu.abilist64=arm64-v8a
+ro.system.build.date=Mon Jun 23 21:39:14 CST 2025
+ro.system.build.date.utc=1750736354
+ro.system.build.fingerprint=Xiaomi/diting/diting:12/SKQ1.230401.001/V816.0.8.0.ULFMIXM:user/release-keys
+ro.system.build.id=AP4A.250605.005
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+ro.system.build.version.incremental=1750736354
+ro.system.build.version.release=15
+ro.system.build.version.release_or_codename=15
+ro.system.build.version.sdk=35
+####################################
+# from gen_build_prop.py:generate_build_info
+####################################
+# begin build properties
+ro.build.id=AP4A.250605.005
+ro.build.display.id=AP4A.250605.005 release-keys
+ro.build.version.incremental=1750736354
+ro.build.version.sdk=35
+ro.build.version.preview_sdk=0
+ro.build.version.preview_sdk_fingerprint=REL
+ro.build.version.codename=REL
+ro.build.version.all_codenames=REL
+ro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream
+ro.build.version.release=15
+ro.build.version.release_or_codename=15
+ro.build.version.release_or_preview_display=15
+ro.build.version.security_patch=2025-06-05
+ro.build.version.base_os=
+ro.build.version.min_supported_target_sdk=28
+ro.build.date=Mon Jun 23 21:39:14 CST 2025
+ro.build.date.utc=1750736354
+ro.build.type=user
+ro.build.user=android-build
+ro.build.host=r-4691ea3cff4c0f82-55u5
+ro.build.tags=release-keys
+ro.build.flavor=xperience_diting-user
+# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,
+# use ro.product.cpu.abilist instead.
+ro.product.cpu.abi=arm64-v8a
+ro.product.locale=en-US
+ro.wifi.channels=
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=diting
+# Do not try to parse description or thumbprint
+ro.build.description=xperience_diting-user 15 AP4A.250605.005 eng.androi release-keys
+# end build properties
+####################################
+# from device/xiaomi/diting/configs/properties/system.prop
+####################################
+#button jack mode & switch
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+# Bluetooth
+persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptiver2-aac-ldac-lhdc
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
+persist.vendor.bt.a2dp.hal.implementation=true
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.btstack.enable.lpa=true
+# Charger
+ro.charger.enable_suspend=1
+# CNE
+persist.vendor.cne.feature=1
+# Disable ftrace by default
+persist.debug.ftrace_events_disable=Yes
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+#hwui properties
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=1024
+# FEAS
+ro.feas.enable=true
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+# Hint Manager
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+# Display
+ro.sf.defer_refresh_rate_when_off=1
+ro.sf.force_handle_idle_timeout=1
+# Dalvik
+pm.dexopt.ab-ota=speed-profile
+#pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+pm.dexopt.boot=verify
+pm.dexopt.install=speed-profile
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.dex2oat64.enabled=true
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+# LMK properties
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=50
+ro.lmk.use_new_strategy=true
+ro.lmk.enable_watermark_check=true
+ro.lmk.enable_userspace_lmk=true
+ro.lmk.enhance_batch_kill=false
+ro.lmk.super_critical=701
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+ro.lmk.psi_scrit_complete_stall_ms=150
+ro.lmk.direct_reclaim_pressure=45
+ro.lmk.reclaim_scan_threshold=0
+#Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+# MGLRU Config
+persist.device_config.mglru_native.lru_gen_config=all
+# Opengl
+ro.opengles.version=196610
+# Property to enable HWC for VDS
+debug.sf.enable_hwc_vds=1
+# RIL
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+persist.vendor.data.mode=concurrent
+ril.subscription.types=NV,RUIM
+ro.telephony.default_network=33,33
+telephony.lteOnCdmaDevice=1
+persist.sys.radio.force_lte_ca=true
+#system prop for RmNet Data
+persist.rmnet.data.enable=true
+persist.data.wda.enable=true
+persist.data.df.dl_mode=5
+persist.data.df.ul_mode=5
+persist.data.df.agg.dl_pkt=10
+persist.data.df.agg.dl_size=4096
+persist.data.df.mux_count=8
+persist.data.df.iwlan_mux=9
+persist.data.df.dev_name=rmnet_usb0
+# Sensors
+persist.vendor.sensors.enable.mag_filter=true
+# SSR
+persist.vendor.ssr.enable_ramdumps=1
+# System prop for NFC DT
+ro.nfc.port=I2C
+# Time service
+persist.timed.enable=true
+# WiFi display
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
+# WLAN
+ro.hardware.wlan.chip=qca6490
+ro.hardware.wlan.dbs=2
+ro.hardware.wlan.mimo=1
+ro.hardware.wlan.vendor=qcom
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
+# Xiaomi
+ro.miui.notch=1
+ro.product.mod_device=diting
+# Radio VoNR Calling
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+####################################
+# from variable ADDITIONAL_SYSTEM_PROPERTIES
+####################################
+ro.treble.enabled=true
+ro.llndk.api_level=202404
+ro.actionable_compatible_property.enabled=true
+ro.postinstall.fstab.prefix=/system
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+net.bt.name=Android
+ro.force.debuggable=0
+####################################
+# from variable PRODUCT_SYSTEM_PROPERTIES
+####################################
+debug.atrace.tags.enableflags=0
+persist.traced.enable=1
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+dalvik.vm.usejit=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.dexopt.thermal-cutoff=2
+dalvik.vm.appimageformat=lz4
+ro.dalvik.vm.native.bridge=0
+pm.dexopt.post-boot=verify
+pm.dexopt.first-boot=verify
+pm.dexopt.boot-after-ota=verify
+pm.dexopt.boot-after-mainline-update=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.install=speed-profile
+#pm.dexopt.install?=speed-profile
+pm.dexopt.install-fast=skip
+pm.dexopt.install-bulk=speed-profile
+pm.dexopt.install-bulk-secondary=verify
+pm.dexopt.install-bulk-downgraded=verify
+pm.dexopt.install-bulk-secondary-downgraded=verify
+# Removed by post_process_props.py because overridden by pm.dexopt.bg-dexopt=everything
+#pm.dexopt.bg-dexopt?=speed-profile
+# Removed by post_process_props.py because overridden by pm.dexopt.ab-ota=speed-profile
+#pm.dexopt.ab-ota?=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.cmdline=verify
+pm.dexopt.shared=speed
+dalvik.vm.dex2oat-resolve-startup-strings=true
+dalvik.vm.dex2oat-max-image-block-size=524288
+dalvik.vm.minidebuginfo=true
+dalvik.vm.dex2oat-minidebuginfo=true
+dalvik.vm.madvise.vdexfile.size=104857600
+dalvik.vm.madvise.odexfile.size=104857600
+dalvik.vm.madvise.artfile.size=4294967295
+dalvik.vm.usap_pool_enabled=false
+dalvik.vm.usap_refill_threshold=1
+dalvik.vm.usap_pool_size_max=3
+dalvik.vm.usap_pool_size_min=1
+dalvik.vm.usap_pool_refill_delay_ms=3000
+dalvik.vm.useartservice=true
+dalvik.vm.enable_pr_dexopt=true
+ro.cp_system_other_odex=1
+ro.apex.updatable=true
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera
+ro.com.google.lens.oem_camera_package=com.android.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
+####################################
+# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES
+####################################
+ro.com.google.clientidbase=android-xiaomi
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.setupwizard.enterprise_mode=1
+setupwizard.enable_assist_gesture_training=true
+persist.sys.strictmode.disable=true
+persist.wm.enable_remote_keyguard_animation=0
+ro.control_privapp_permissions=log
+net.tethering.noprovisioning=true
+ro.ota.allow_downgrade=true
+# end of file

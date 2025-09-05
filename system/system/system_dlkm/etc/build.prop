@@ -1,0 +1,20 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_dlkm.brand=Xiaomi
+ro.product.system_dlkm.device=diting
+ro.product.system_dlkm.manufacturer=Xiaomi
+ro.product.system_dlkm.model=diting
+ro.product.system_dlkm.name=xperience_diting
+ro.system_dlkm.build.date=Mon Jun 23 21:39:14 CST 2025
+ro.system_dlkm.build.date.utc=1750736354
+ro.system_dlkm.build.fingerprint=Xiaomi/diting/diting:12/SKQ1.230401.001/V816.0.8.0.ULFMIXM:user/release-keys
+ro.system_dlkm.build.id=AP4A.250605.005
+ro.system_dlkm.build.tags=release-keys
+ro.system_dlkm.build.type=user
+ro.system_dlkm.build.version.incremental=1750736354
+ro.system_dlkm.build.version.release=15
+ro.system_dlkm.build.version.release_or_codename=15
+ro.system_dlkm.build.version.sdk=35
+# end of file
