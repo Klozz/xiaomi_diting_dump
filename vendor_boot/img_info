@@ -1,0 +1,17 @@
+kernel=kernel
+ramdisk=ramdisk
+second=second.img
+page_size=875969122
+dt=dtb.img
+kernel_size=4
+ramdisk_size=32768
+second_size=23720324
+dtb_offset=0x00007000
+dtb_size=808745008
+base_addr=0xffff9000
+kernel_offset=0x00008000
+ramdisk_offset=0x01007000
+tags_offset=0x6676ad6f
+dtbo_offset=
+cmd_line='2000 disable_dma32=on swinfo.fingerprint=diting_global:12/OS2.0.204.0.VLFMIXM:user mtdoops.fingerprint=diting_global:12/OS2.0.204.0.VLFMIXM:user bootconfig'
+board="p=32,memsize=307"
