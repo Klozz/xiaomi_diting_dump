@@ -1,0 +1,33 @@
+{
+    "title": "经典锁屏",
+    "cardType": 1,
+    "count": 5,
+    "slideCount": 5,
+    "randomOrder": false,
+    "wallpapers": [{
+        "thumbPath": "./classic01.jpg",
+        "originPath": "./classic01.jpg",
+        "maskPath": "./classic01_mask.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic02.jpg",
+        "originPath": "./classic02.jpg",
+        "maskPath": "./classic02_mask.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic03.jpg",
+        "originPath": "./classic03.jpg",
+        "maskPath": "./classic03_mask.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic04.jpg",
+        "originPath": "./classic04.jpg",
+        "maskPath": "./classic04_mask.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic05.jpg",
+        "originPath": "./classic05.jpg",
+        "maskPath": "./classic05_mask.jpg",
+        "type": "wallpaper"
+    }]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "绽放",
+  "titleResId": "wallpaper_group_blossom_title",
+  "cardType": 1,
+  "count": 8,
+  "slideCount": 8,
+  "randomOrder": false,
+  "wallpapers": [
+    {
+      "thumbPath": "./Blossom01.jpg",
+      "originPath": "./Blossom01.jpg",
+      "maskPath": "./Blossom01_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom02.jpg",
+      "originPath": "./Blossom02.jpg",
+      "maskPath": "./Blossom02_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom03.jpg",
+      "originPath": "./Blossom03.jpg",
+      "maskPath": "./Blossom03_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom04.jpg",
+      "originPath": "./Blossom04.jpg",
+      "maskPath": "./Blossom04_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom05.jpg",
+      "originPath": "./Blossom05.jpg",
+      "maskPath": "./Blossom05_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom06.jpg",
+      "originPath": "./Blossom06.jpg",
+      "maskPath": "./Blossom06_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom07.jpg",
+      "originPath": "./Blossom07.jpg",
+      "maskPath": "./Blossom07_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Blossom08.jpg",
+      "originPath": "./Blossom08.jpg",
+      "maskPath": "./Blossom08_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    }
+  ]
+}
