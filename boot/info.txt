@@ -1,0 +1,8 @@
+kernel: kernel
+dtb: dtb/
+ramdisk: ramdisk/
+header version: 4
+os_version: 12.0.0
+os_patch_level: 2025-09
+pagesize: 4096
+cmdline: ''

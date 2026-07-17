@@ -1,0 +1,20 @@
+## missi-user 15 AQ3A.250226.002 OS3.0.4.0.VLFMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: taro
+- Codename: diting
+- Brand: Xiaomi
+- Flavor: missi-user
+- Release Version: 15
+- Kernel Version: 5.10.236
+- Id: AQ3A.250226.002
+- Incremental: OS3.0.4.0.VLFMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: undefined
+- Fingerprint: Xiaomi/diting/diting:12/SKQ1.230401.001/OS3.0.4.0.VLFMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-15-AQ3A.250226.002-OS3.0.4.0.VLFMIXM-release-keys
+- Repo: xiaomi_diting_dump
