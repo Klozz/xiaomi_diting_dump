@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dynamic_frame_rescue_config>
+    <support_mode>
+        <mode name="performance">performance</mode>
+        <mode name="balanced">balanced</mode>
+    </support_mode>
+    <thermal>
+        <trig temp="25000" big="2600" pri="3000" glv="0">25</trig>
+        <trig temp="30000" big="2500" pri="2900" glv="1">30</trig>
+        <trig temp="35000" big="2200" pri="2600" glv="2">35</trig>
+        <trig temp="40000" big="2000" pri="2200" glv="5">40</trig>
+        <trig temp="99000" big="1600" pri="1800" glv="8">99</trig>
+    </thermal>
+    <default>
+        <power_mode mode="performance">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.2" lv2="0.6" lv3="1.1">cthreshold</cthreshold>
+            <freqbig lv1="2000" lv2="2400" lv3="2800">freqbig</freqbig>
+            <freqpri lv1="2200" lv2="2600" lv3="3000">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.3" lv2="0.8">gthreshold</gthreshold>
+            <glevel lv1="0" lv2="0" lv3="0">glevel</glevel>
+        </power_mode>
+        <power_mode mode="balanced">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.3" lv2="0.7" lv3="1.2">cthreshold</cthreshold>
+            <freqbig lv1="1800" lv2="2200" lv3="2600">freqbig</freqbig>
+            <freqpri lv1="2000" lv2="2400" lv3="2800">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.4" lv2="0.9">gthreshold</gthreshold>
+            <glevel lv1="1" lv2="1" lv3="0">glevel</glevel>
+        </power_mode>
+        <power_mode mode="power">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.4" lv2="0.8" lv3="1.3">cthreshold</cthreshold>
+            <freqbig lv1="1600" lv2="2000" lv3="2400">freqbig</freqbig>
+            <freqpri lv1="1800" lv2="2200" lv3="2600">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.5" lv2="1.0">gthreshold</gthreshold>
+            <glevel lv1="5" lv2="5" lv3="3">glevel</glevel>
+        </power_mode>
+        <power_mode mode="performance_out">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.2" lv2="0.6" lv3="1.1">cthreshold</cthreshold>
+            <freqbig lv1="1900" lv2="2300" lv3="2700">freqbig</freqbig>
+            <freqpri lv1="2100" lv2="2500" lv3="2900">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.3" lv2="0.8">gthreshold</gthreshold>
+            <glevel lv1="1" lv2="1" lv3="1">glevel</glevel>
+        </power_mode>
+        <power_mode mode="balanced_out">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.3" lv2="0.7" lv3="1.2">cthreshold</cthreshold>
+            <freqbig lv1="1700" lv2="2100" lv3="2500">freqbig</freqbig>
+            <freqpri lv1="1900" lv2="2300" lv3="2700">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.4" lv2="0.9">gthreshold</gthreshold>
+            <glevel lv1="2" lv2="2" lv3="1">glevel</glevel>
+        </power_mode>
+        <power_mode mode="power_out">
+            <cduration lv1="30" lv2="50" lv3="100">cduration</cduration>
+            <cthreshold lv1="0.4" lv2="0.8" lv3="1.3">cthreshold</cthreshold>
+            <freqbig lv1="1500" lv2="1900" lv3="2300">freqbig</freqbig>
+            <freqpri lv1="1700" lv2="2100" lv3="2500">freqpri</freqpri>
+            <gduration lv1="30" lv2="50" lv3="100">gduration</gduration>
+            <gthreshold lv1="0.5" lv2="1.0">gthreshold</gthreshold>
+            <glevel lv1="6" lv2="6" lv3="4">glevel</glevel>
+        </power_mode>
+    </default>
+    <app_whitelist>
+        <app package_name="com.miui.home">default</app>
+        <app package_name="com.android.systemui">default</app>
+        <app package_name="com.android.browser">default</app>
+        <app package_name="com.miui.gallery">default</app>
+        <app package_name="com.miui.notes">default</app>
+        <app package_name="com.android.settings">default</app>
+        <app package_name="com.miui.player">default</app>
+        <app package_name="com.xiaomi.market">default</app>
+        <app package_name="com.miui.securitycenter">default</app>
+        <app package_name="com.miui.calculator">default</app>
+        <app package_name="com.duokan.reader">default</app>
+        <app package_name="com.xiaomi.shop">default</app>
+        <app package_name="com.android.fileexplorer">default</app>
+        <app package_name="com.android.calendar">default</app>
+        <app package_name="com.android.quicksearchbox">default</app>
+        <app package_name="com.xiaomi.gamecenter">default</app>
+        <app package_name="com.miui.weather2">default</app>
+        <app package_name="com.android.thememanager">default</app>
+        <app package_name="com.miui.personalassistant">default</app>
+        <app package_name="com.ss.android.ugc.aweme">default</app>
+        <app package_name="com.tencent.mm">default</app>
+        <app package_name="com.alibaba.android.rimet">default</app>
+        <app package_name="com.smile.gifmaker">default</app>
+        <app package_name="com.kuaishou.nebula">default</app>
+        <app package_name="tv.danmaku.bilibilihd">default</app>
+        <app package_name="com.tencent.mobileqq">default</app>
+        <app package_name="com.baidu.netdisk">default</app>
+        <app package_name="com.baidu.BaiduMap">default</app>
+        <app package_name="tv.danmaku.bili">default</app>
+        <app package_name="com.ss.android.article.news">default</app>
+        <app package_name="com.baidu.searchbox">default</app>
+        <app package_name="com.xingin.xhs">default</app>
+        <app package_name="com.dragon.read">default</app>
+        <app package_name="com.tencent.qqlive">default</app>
+        <app package_name="com.ss.android.article.lite">default</app>
+        <app package_name="com.quark.browser">default</app>
+        <app package_name="air.tv.douyu.android">default</app>
+        <app package_name="com.qiyi.video">default</app>
+        <app package_name="com.netease.cloudmusic">default</app>
+        <app package_name="com.youku.phone">default</app>
+        <app package_name="com.chaoxing.mobile">default</app>
+        <app package_name="com.tencent.mtt">default</app>
+        <app package_name="com.UCMobile">default</app>
+        <app package_name="com.fenbi.android.servant">default</app>
+        <app package_name="com.xunmeng.pinduoduo">default</app>
+        <app package_name="com.meta.box">default</app>
+        <app package_name="com.taobao.taobao">default</app>
+        <app package_name="com.qiyi.video.pad">default</app>
+        <app package_name="com.kmxs.reader">default</app>
+        <app package_name="com.tencent.qqmusic">default</app>
+        <app package_name="com.baidu.homework">default</app>
+        <app package_name="com.kugou.android">default</app>
+        <app package_name="com.ss.android.ugc.live">default</app>
+        <app package_name="com.baidu.haokan">default</app>
+        <app package_name="com.sina.weibo">default</app>
+        <app package_name="com.le123.ysdq">default</app>
+        <app package_name="com.xunlei.downloadprovider">default</app>
+        <app package_name="com.baidu.searchbox.lite">default</app>
+        <app package_name="com.eduyun.app.factory.ykt">default</app>
+        <app package_name="com.zhongduomei.rrmj.society">default</app>
+        <app package_name="com.taobao.live">default</app>
+        <app package_name="com.qiyi.video.lite">default</app>
+        <app package_name="com.tencent.qqlivepad">default</app>
+        <app package_name="com.cmcc.cmvideo">default</app>
+        <app package_name="com.fenbi.android.zhaojiao">default</app>
+        <app package_name="com.ss.android.lark.kami">default</app>
+        <app package_name="com.miui.creation">default</app>
+    </app_whitelist>
+</dynamic_frame_rescue_config>

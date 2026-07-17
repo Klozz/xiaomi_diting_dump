@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<FaultRule period="60" space="7" logCntPerDay="5" statPeriod="24">
+    <Fault name="RfException">
+        <SubFault name="rfDevice" trigger="915600001"/>
+        <SubFault name="rfMainBoard" trigger="915600002"/>
+    </Fault>
+    <Fault name="SimException">
+        <SubFault name="simNoRecognized" trigger="915400002" cnt="2" logCnt="1"/>
+        <SubFault name="arrearSimStatus" trigger="915300007" cnt="2" logCnt="1"/>
+        <SubFault name="invalidCard" trigger="915300006" cnt="2" logCnt="1"/>
+    </Fault>
+    <Fault name="CallSmsException">
+        <SubFault name="callFailure" trigger="915200010" cnt="2" logCnt="1"/>
+        <SubFault name="smsSendFailure" trigger="915700002" cnt="2" logCnt="1"/>
+        <SubFault name="regVolteFailed" trigger="915100015" chkParam="UploadLog:(true)" cnt="5" logCnt="2"/>
+    </Fault>
+    <Fault name="DataException">
+        <SubFault name="dataFakeConnection" trigger="915000004" chkParam="UploadLog:(true)" cnt="7" logCnt="3"/>
+        <SubFault name="dataSetupError" trigger="915000006" chkParam="UploadLog:(true)" cnt="5" logCnt="2"/>
+    </Fault>
+    <Fault name="SignalException">
+        <SubFault name="poorRsrp" trigger="915100004" cnt="20" logCnt="10"/>
+        <SubFault name="poorSnr" trigger="915100005" cnt="20" logCnt="10"/>
+    </Fault>
+    <Fault name="NetworkException">
+        <SubFault name="nwOos" trigger="915100012" chkParam="UploadLog:(true)" cnt="5" logCnt="2"/>
+        <SubFault name="fivegOffline" trigger="915100017" chkParam="UploadLog:(true)" cnt="5" logCnt="2"/>
+    </Fault>
+    <Fault name="NoSound">
+    <SubFault name="soundCardNotRegistered" trigger="906001001"/>
+    </Fault>
+    <Fault name="VideoError">
+    <SubFault name="TrackStoppedWithError" trigger="906121001" cnt="20" logCnt="20"/>
+    </Fault>
+    <Fault name="WiFiOnFail">
+        <SubFault name="wifiOnFail" trigger="916061002" cnt="2" logCnt="1"/>
+    </Fault>
+</FaultRule>
