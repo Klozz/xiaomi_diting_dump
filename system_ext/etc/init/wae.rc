@@ -1,0 +1,78 @@
+# Services
+service pulseaudio_wae /system/bin/sh /data/wae/start_pulseaudio.sh
+    user product_hyperengine
+    group product_hyperengine root
+    disabled
+    seclabel u:r:wae_daemon:s0
+
+service wae_daemon /system/bin/sh /data/wae/start_waed.sh
+    user root
+    group root product_hyperengine everybody media_rw system
+    disabled
+    seclabel u:r:wae_daemon:s0
+
+# Env Prepare
+on zygote-start && property:sys.wae.rootfs_ready=
+    mkdir /data/wae 0775 product_hyperengine product_hyperengine
+    mkdir /data/wae/rootfs 0775 product_hyperengine product_hyperengine
+    mkdir /data/wae/pulseaudio 0775 product_hyperengine product_hyperengine
+    mkdir /data/wae/runtime-temp 0775 product_hyperengine product_hyperengine
+    setprop sys.wae.rootfs_prepared false
+    mkdir /dev/shm 0775 product_hyperengine product_hyperengine
+    restorecon /dev/shm
+    mkdir /dev/wae 0777 product_hyperengine product_hyperengine
+    restorecon /dev/wae
+
+on property:sys.wae.rootfs_ready=true && property:sys.wae.rootfs_prepared=false
+    # Base System
+    mount none /dev /data/wae/rootfs/dev bind rec
+    mount none /dev/cpuset /data/wae/rootfs/dev/cpuset bind rec
+    mount none /sys /data/wae/rootfs/sys bind rec
+    mount none /proc /data/wae/rootfs/proc bind rec
+
+    # Android sdcard mount
+    mkdir /data/wae/rootfs/mnt/host_sdcard 0777 product_hyperengine product_hyperengine
+    mount none /storage/self/primary /data/wae/rootfs/mnt/host_sdcard bind rec
+
+    # Next Stage
+    setprop sys.wae.rootfs_prepared true
+
+# Upgrade if rootfs already init
+on property:sys.wae.rootfs_ready=false && property:sys.wae.rootfs_prepared=true
+    stop wae_daemon
+    stop pulseaudio_wae
+
+    umount /data/wae/rootfs/usr/local
+    umount /data/wae/rootfs/usr
+    umount /data/wae/pulseaudio
+
+on property:sys.wae.rootfs_ready=true && property:sys.wae.rootfs_prepared=true
+    restorecon_recursive /data/wae/rootfs
+    restorecon /dev/shm
+
+    umount /data/wae/rootfs/usr/local
+    umount /data/wae/rootfs/usr
+    umount /data/wae/pulseaudio
+
+    mount erofs loop@/data/wae/base_system/pulseaudio.img /data/wae/pulseaudio ro
+    mount erofs loop@/data/wae/base_system/wae_usr_basesystem.img /data/wae/rootfs/usr ro
+    mount erofs loop@/data/wae/base_system/wae_components.img /data/wae/rootfs/usr/local ro
+
+    start wae_daemon
+
+on property:sys.wae.rootfs_ready=true && property:sys.wae.rootfs_prepared=true && property:sys.wae.start_base_sys=true
+    restorecon /dev/shm
+    start pulseaudio_wae
+    start wae_daemon
+
+on property:sys.wae.rootfs_ready=true && property:sys.wae.rootfs_prepared=true && property:sys.wae.start_base_sys=false
+    restorecon /dev/shm
+    stop pulseaudio_wae
+    stop wae_daemon
+
+# Remount sdcard support. if fuse remounted, the mount bind will invalid
+on property:sys.wae.remount_sdcard=true
+    umount /data/wae/rootfs/mnt/host_sdcard
+    mkdir /data/wae/rootfs/mnt/host_sdcard 0777 product_hyperengine product_hyperengine
+    mount none /storage/self/primary /data/wae/rootfs/mnt/host_sdcard bind rec
+    setprop sys.wae.remount_sdcard false

@@ -1,0 +1,7 @@
+<permissions>
+    <customized-permissions
+        package="jp.softbank.android.mpi.manager"
+        device-region="jp_sb"
+        sha256-cert-digest="66:53:16:E9:69:B7:44:BF:9E:D6:DF:DC:E4:25:19:36:75:D2:6D:96:B9:69:5E:61:32:FD:4B:E0:E2:F0:ED:8F">
+    </customized-permissions>
+</permissions>

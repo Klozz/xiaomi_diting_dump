@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EventRoot version="">
+<Event AppId="31000401732" EventName="unlock" Package="com.xiaomi.security.onetrack" Channel="ot">
+    <Param id="0" name="device" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="secureboot" Package="com.xiaomi.security.onetrack" Channel="ot">
+    <Param id="0" name="device" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="debugpolicy" Package="com.xiaomi.security.onetrack" Channel="ot">
+    <Param id="0" name="device" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="RootKeyOp" Package="security" Channel="ot">
+    <Param id="0" name="Operation" type="string" len="50" />
+    <Param id="1" name="statusCode" type="int" />
+</Event>
+<Event AppId="31000401732" EventName="SecAppReg" Package="security" Channel="ot">
+    <Param id="0" name="appName" type="string" len="50" />
+    <Param id="1" name="Success" type="bool" />
+</Event>
+<Event AppId="31000401732" EventName="SecAppAuth" Package="security" Channel="ot">
+    <Param id="0" name="appName" type="string" len="50" />
+    <Param id="1" name="Success" type="bool" />
+</Event>
+<Event AppId="31000401732" EventName="SecAppLogout" Package="security" Channel="ot">
+    <Param id="0" name="appName" type="string" len="50" />
+    <Param id="1" name="Success" type="bool" />
+</Event>
+<Event AppId="31000401732" EventName="TeeMemoryMonitor" Package="security" Channel="ot">
+    <Param id="0" name="TeeTotalMemory" type="int" />
+    <Param id="1" name="TeeUsedMemory" type="int" />
+    <Param id="2" name="TeeLatestMemoryPeak" type="int" />
+</Event>
+<Event AppId="31000401732" EventName="TuiCreateSession" Package="security" Channel="ot">
+    <Param id="1" name="statusCode" type="int"/>
+    <Param id="2" name="tuiTaName" type="string" len="50" />
+    <Param id="3" name="appPackageName" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="TuiDestorySession" Package="security" Channel="ot">
+    <Param id="1" name="statusCode" type="int"/>
+    <Param id="2" name="tuiTaName" type="string" len="50" />
+    <Param id="3" name="appPackageName" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="TuiInvokeCommand" Package="security" Channel="ot">
+    <Param id="1" name="statusCode" type="int"/>
+    <Param id="2" name="tuiTaName" type="string" len="50" />
+    <Param id="3" name="appPackageName" type="string" len="50" />
+</Event>
+<Event AppId="31000401732" EventName="TuiActivityLayout" Package="security" Channel="ot">
+    <Param id="1" name="statusCode" type="int"/>
+    <Param id="2" name="tuiTaName" type="string" len="50" />
+    <Param id="3" name="appPackageName" type="string" len="50" />
+</Event>
+<Event AppId="31000401869" EventName="LockCredential_enable" Package="security" Channel="ot">
+    <Param id="0" name="LockCredential_set" type="bool"/>
+</Event>
+<Event AppId="31000401973" EventName="OpenSecCam" Package="com.xiaomi.trustservice" Channel="ot">
+    <Param id="0" name="CallerPackageName" type="string"/>
+    <Param id="1" name="CallTimes" type="int"/>
+</Event>
+<Event AppId="31000401595" EventName="faceunlock_enable" Package="security" Channel="ot">
+    <Param id="0" name="Enabled_FaceCount" type="string" len="50" />
+    <Param id="1" name="FaceUnlock_auth_times" type="int" len="50" />
+    <Param id="2" name="FaceUnlock_auth_success_times" type="int" len="50" />
+    <Param id="3" name="FaceUnlock_auth_take_time" type="int" arrLen="1000" />
+    <Param id="4" name="FaceUnlcok_call_frequency" type="int" len="50" />
+</Event>
+<Event AppId="31000000011" EventName="schedgenius_gameinfo" Package="xring.schedgenius.onetrack" Channel="ot">
+<Param id="0" name="totalFrame" type="int"/>
+<Param id="1" name="gameName" type="string" len="50"/>
+<Param id="2" name="avgTargetFps" type="int"/>
+<Param id="3" name="avgFpsGap" type="int"/>
+<Param id="4" name="totalLowFrame" type="int"/>
+<Param id="5" name="totalHighFrame" type="int"/>
+<Param id="6" name="ratioLowFrame2_5" type="int"/>
+<Param id="7" name="ratioLowFrame6_10" type="int"/>
+<Param id="8" name="ratioLowFrame11_20" type="int"/>
+<Param id="9" name="ratioLowFrame21_40" type="int"/>
+<Param id="10" name="ratioLowFrame41_70" type="int"/>
+<Param id="11" name="ratioLowFrame71_" type="int"/>
+<Param id="12" name="avgLostTime" type="int"/>
+<Param id="13" name="avgCpuInterval" type="int"/>
+<Param id="14" name="ratioMaxFreq" type="int"/>
+<Param id="15" name="ratioMinFreq" type="int"/>
+<Param id="16" name="avgCluster" type="int"/>
+<Param id="17" name="avgRuntime" type="int"/>
+<Param id="18" name="maxRuntime" type="int"/>
+<Param id="19" name="avgCpuBound" type="int"/>
+<Param id="20" name="avgCpuBoost" type="int"/>
+<Param id="21" name="avgGpuInterval" type="int"/>
+<Param id="22" name="avgGpuBound" type="int"/>
+<Param id="23" name="avgGpuBoost" type="int"/>
+<Param id="24" name="avgRunableTime" type="int"/>
+<Param id="25" name="maxRunableTime" type="int"/>
+<Param id="26" name="avgKeyThread" type="int"/>
+<Param id="27" name="p1PredMape" type="int"/>
+<Param id="28" name="p2PredMape" type="int"/>
+<Param id="29" name="p3PredMape" type="int"/>
+<Param id="30" name="runtimePredMape" type="int"/>
+<Param id="31" name="powerPredMape" type="int"/>
+</Event>
+<Event AppId="31000402203" EventName="secAuthed" Package="bootup" Channel="ot">
+<Param id="0" name="authStatus" type="int"/>
+</Event>
+<Event AppId="31000402203" EventName="bootTimeout" Package="bootup" Channel="ot">
+<Param id="0" name="bootromTime" type="int"/>
+<Param id="1" name="xloaderTime" type="int"/>
+<Param id="2" name="uefiTime" type="int"/>
+<Param id="3" name="kernelTime" type="int"/>
+<Param id="4" name="androidTime" type="int"/>
+<Param id="5" name="ddrIsFullBoot" type="int"/>
+</Event>
+<Event AppId="31000402177" EventName="EncoderAttrInfo" Package="com.vpu.onetrack" Channel="ot">
+    <Param id="0" name="EncDatareport" type="string" len="4096" />
+</Event>
+<Event AppId="31000402177" EventName="DecoderAttrInfo" Package="com.vpu.onetrack" Channel="ot">
+    <Param id="0" name="DecDatareport" type="string" Len="4096"/>
+</Event>
+<Event AppId="31000402177" EventName="EncoderHWInfo" Package="com.vpu.onetrack" Channel="ot">
+    <Param id="0" name="EncFrequencyString" type="string" Len="600"/>
+</Event>
+<Event AppId="31000402177" EventName="DecoderHWInfo" Package="com.vpu.onetrack" Channel="ot">
+    <Param id="0" name="DecFrequencyString" type="string" Len="600"/>
+</Event>
+<Event AppId="31000402189" EventName="xnn_predictor_init" Package="npu" Channel="ot">
+    <Param id="0" name="npu_freq" type="int" />
+    <Param id="1" name="model_name" type="string" len="50" />
+    <Param id="2" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="xnn_predictor_run" Package="npu" Channel="ot">
+    <Param id="0" name="model_name" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="xnn_predictor_deinit" Package="npu" Channel="ot">
+    <Param id="0" name="model_name" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="task_failed_event" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="get_network_out_info_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="get_network_input_info_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="create_network_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="decrypt_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+</Event>
+<Event AppId="31000402189" EventName="xnn_run_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="xnn_func" type="string" len="50" />
+	<Param id="2" name="run_err_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="open_hpc_aon_driver_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="aon_func" type="string" len="50" />
+	<Param id="2" name="model_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="load_fw_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="aon_func" type="string" len="50" />
+	<Param id="2" name="model_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="load_model_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="aon_func" type="string" len="50" />
+	<Param id="2" name="model_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="load_model" Package="npu" Channel="ot">
+    <Param id="0" name="aon_func" type="string" len="50" />
+	<Param id="1" name="model_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="unload_model_failed" Package="npu" Channel="ot">
+    <Param id="0" name="err_event" type="string" len="50" />
+    <Param id="1" name="aon_func" type="string" len="50" />
+	<Param id="2" name="model_id" type="int" />
+</Event>
+<Event AppId="31000402190" EventName="unload_model" Package="npu" Channel="ot">
+    <Param id="0" name="aon_func" type="string" len="50" />
+	<Param id="1" name="model_id" type="int" />
+</Event>
+<Event AppId="31000401732" EventName="XrseBootRetryRecord" Package="security" Channel="ot">
+    <Param id="0" name="XrseRamBootRetryTimes" type="int"/>
+    <Param id="1" name="XrseDDRBootRetryTimes" type="int"/>
+    <Param id="2" name="XrseColdBootRetryTimes" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="DPU_WAIT_FENCE_TMO" Package="dpu" Channel="ot">
+    <Param id="0" name="display_fence_timeout" type="int"/>
+    <Param id="1" name="frame_count" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="DPU_PRESENT_FAIL" Package="dpu" Channel="ot">
+    <Param id="0" name="display_timeout_ratio" type="int"/>
+    <Param id="1" name="frame_count" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="LAYERMASK_ENABLED" Package="dpu" Channel="ot">
+    <Param id="0" name="frame_cnt" type="int"/>
+    <Param id="1" name="layermask_enable_cnt" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="PROFILE_VOTE_LEVEL" Package="dpu" Channel="ot">
+    <Param id="0" name="frame_cnt" type="int"/>
+    <Param id="1" name="profile_level0_cnt" type="int"/>
+    <Param id="2" name="profile_level1_cnt" type="int"/>
+    <Param id="3" name="profile_level2_cnt" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="OFFLINE_OVERLAY" Package="dpu" Channel="ot">
+    <Param id="0" name="frame_cnt" type="int"/>
+    <Param id="1" name="offline_overlay_cnt" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="DPU_ENTER_IDLE" Package="dpu" Channel="ot">
+    <Param id="0" name="display_idle_count" type="int"/>
+    <Param id="1" name="frame_count" type="int"/>
+</Event>
+<Event AppId="31000402185" EventName="PARTIAL_UPDATED" Package="dpu" Channel="ot">
+    <Param id="0" name="frame_cnt" type="int"/>
+    <Param id="1" name="partial_updated_cnt" type="int"/>
+</Event>
+<Event AppId="31000402203" EventName="memory_event" Package="memory" Channel="ot">
+    <Param id="0" name="free_page" type="int"/>
+    <Param id="1" name="file_page" type="int"/>
+    <Param id="2" name="anon_page" type="int"/>
+    <Param id="3" name="zram_page" type="int"/>
+    <Param id="4" name="kswapd_cnt" type="int"/>
+    <Param id="5" name="direct_reclaim_cnt" type="int"/>
+    <Param id="6" name="slowpath_cost_jiffies" type="int"/>
+</Event>
+</EventRoot>
