@@ -1,0 +1,37 @@
+{
+    "title": "经典锁屏",
+    "cardType": 1,
+    "count": 4,
+    "slideCount": 4,
+    "randomOrder": false,
+    "wallpapers": [{
+        "thumbPath": "./classic01.jpg",
+        "originPath": "./classic01.jpg",
+        "maskPath": "./classic01_mask.jpg",
+        "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/0ab42983536994732b3e5b5c2507c41eb8993f324",
+        "sha1": "8993f324220fba1d50590a53728ff190d16e65e3",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic02.jpg",
+        "originPath": "./classic02.jpg",
+        "maskPath": "./classic02_mask.jpg",
+        "downloadPath": "https://f6.market.xiaomi.com/download/ThemeMarket/048a4ef0d06b2440baa1ca3af3b0e65b88c1e8d3b",
+        "sha1": "8c1e8d3bf5d19840762f649c8923d5ab005dd8c2",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic03.jpg",
+        "originPath": "./classic03.jpg",
+        "maskPath": "./classic03_mask.jpg",
+        "downloadPath": "https://f7.market.xiaomi.com/download/ThemeMarket/0bdd3afe835ee4f34a3e6974077ce6cfc8bd09175",
+        "sha1": "8bd0917517626c350d3b505853ca1913baf5051b",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./classic04.jpg",
+        "originPath": "./classic04.jpg",
+        "maskPath": "./classic04_mask.jpg",
+        "downloadPath": "https://f8.market.xiaomi.com/download/ThemeMarket/0ddb25916274e49c19ef5a1c884e509c6d837802d",
+        "sha1": "d837802d255e75ca8b4a0dc60f358805d561b938",
+        "fileSizeInKB": "48270319",
+        "type": "wallpaper"
+    }]
+}

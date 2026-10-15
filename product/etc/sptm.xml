@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MIUI ADD: Performance_MemoryEnhance -->
+<sptm_groups>
+
+    <group name="sptm_old">
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.sina.weibo</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.taobao.taobao</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.ss.android.lark</item>
+        <item>com.xingin.xhs</item>
+        <item>com.tencent.qqmusic</item>
+        <item>com.MobileTicket</item>
+        <item>com.qiyi.video</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.zhihu.android</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.hicorenational.antifraud</item>
+        <item>com.miHoYo.ys.mi</item>
+    </group>
+
+    <group name="sptm_new">
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.quark.browser</item>
+        <item>com.xingin.xhs</item>
+        <item>com.dragon.read</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.taobao.idlefish</item>
+        <item>com.shizhuang.duapp</item>
+        <item>com.qiyi.video</item>
+        <item>com.Qunar</item>
+        <item>com.dianping.v1</item>
+        <item>com.sankuai.meituan.takeoutnew</item>
+        <item>com.sina.weibo</item>
+        <item>com.ss.android.article.news</item>
+        <item>cn.wps.moffice_eng</item>
+        <item>com.xt.retouch</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.taobao.taobao</item>
+        <item>com.netease.cloudmusic</item>
+        <item>cn.xiaochuankeji.tieba</item>
+        <item>com.zhihu.android</item>
+        <item>com.lemon.lv</item>
+        <item>com.manmanbuy.bijia</item>
+        <item>com.baidu.tieba</item>
+        <item>com.smile.gifmaker</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.xunmeng.pinduoduo</item>
+    </group>
+
+    <group name="sptm_slow_startup">
+        <item>tv.danmaku.bili</item>
+        <item>com.dragon.read</item>
+        <item>com.xingin.xhs</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.taobao.taobao</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.ss.android.article.news</item>
+        <item>com.sina.weibo</item>
+        <item>com.tencent.mobileqq</item>
+    </group>
+
+    <group name="sptm_sub_process">
+        <item>cn.wps.moffice_eng:writer1</item>
+    </group>
+
+    <group name="preload_old">
+        <item>com.netease.cloudmusic</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+    </group>
+
+    <group name="preload_new">
+        <item>com.qiyi.video</item>
+        <item>com.sankuai.meituan.takeoutnew</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.netease.cloudmusic</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.lemon.lv</item>
+        <item>com.smile.gifmaker</item>
+    </group>
+
+    <group name="game">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+        <item>com.miHoYo.ys.mi</item>
+        <item>com.miHoYo.Yuanshen</item>
+        <item>com.tencent.jkchess</item>
+    </group>
+
+    <group name="preload_game">
+        <item>com.tencent.tmgp.sgame</item>
+        <item>com.tencent.tmgp.pubgmhd</item>
+    </group>
+
+    <group name="permission_dialog">
+        <item>com.miui.securitycenter</item>
+        <item>com.lbe.security.miui</item>
+    </group>
+
+    <group name="resume_timeout_white">
+        <item>com.xiaomi.gamecenter.sdk.service</item>
+    </group>
+
+</sptm_groups>
+<!-- END Performance_MemoryEnhance -->

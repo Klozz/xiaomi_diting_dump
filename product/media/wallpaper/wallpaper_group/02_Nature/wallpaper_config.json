@@ -1,0 +1,50 @@
+{
+  "title": "自然",
+  "titleResId": "wallpaper_group_nature_title",
+  "cardType": 1,
+  "count": 6,
+  "slideCount": 6,
+  "randomOrder": false,
+  "wallpapers": [
+    {
+      "thumbPath": "./Nature01.jpg",
+      "originPath": "./Nature01.jpg",
+      "maskPath": "./Nature01_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Nature02.jpg",
+      "originPath": "./Nature02.jpg",
+      "maskPath": "./Nature02_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Nature03.jpg",
+      "originPath": "./Nature03.jpg",
+      "maskPath": "./Nature03_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Nature04.jpg",
+      "originPath": "./Nature04.jpg",
+      "maskPath": "./Nature04_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Nature05.jpg",
+      "originPath": "./Nature05.jpg",
+      "type": "wallpaper"
+    },
+    {
+      "thumbPath": "./Nature06.jpg",
+      "originPath": "./Nature06.jpg",
+      "maskPath": "./Nature06_MASK.jpg",
+      "mattingMode": 2,
+      "type": "wallpaper"
+    }
+  ]
+}
