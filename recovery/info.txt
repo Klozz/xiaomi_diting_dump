@@ -1,0 +1,5 @@
+dtb: dtb/
+ramdisk: ramdisk/
+header version: 4
+pagesize: 4096
+cmdline: ''
